@@ -1,0 +1,193 @@
+[
+  {
+    "id": 1,
+    "text": "Where it is not permitted to make a U-turn?",
+    "answers": {
+      "A": {
+        "text": "In the spaces between traffic islands."
+      },
+      "B": {
+        "text": "On a bridge."
+      },
+      "C": {
+        "text": "Where another vehicle is following at a distance of less than 1 jO meters."
+      },
+      "D": {
+        "text": "Within 150 meters of a bridge."
+      }
+    },
+    "correctAnswerId": "B"
+  },
+  {
+    "id": 2,
+    "text": "How far back from the vehicle in front of your should you drive? (How far should you drive behind a vehicle?)",
+    "answers": {
+      "A": {
+        "text": "Far enough to allow you to stop safety in an emergency."
+      },
+      "B": {
+        "text": "50 meters"
+      },
+      "C": {
+        "text": "30 meters"
+      },
+      "D": {
+        "text": "30 meters"
+      }
+    },
+    "correctAnswerId": "A"
+  },
+  {
+    "id": 3,
+    "text": "When you intend to stop or park your vehicle, you should:",
+    "answers": {
+      "A": {
+        "text": "Park in the bus lane."
+      },
+      "B": {
+        "text": "stop no further than 50 centimeters form the curb or the shoulder of the road."
+      },
+      "C": {
+        "text": "Turn on your turn signal or your parking lights not less than 30 meters before stopping"
+      },
+      "D": {
+        "text": "Park in a pedestrian crossing."
+      }
+    },
+    "correctAnswerId": "C"
+  },
+  {
+    "id": 4,
+    "text": "You are required to turn on your headlights:",
+    "answers": {
+      "A": {
+        "text": "Not pass."
+      },
+      "B": {
+        "text": "When it rains: When seeking to overtake other vehicles in an emergency."
+      },
+      "C": {
+        "text": "When you intend to make a right turn."
+      },
+      "D": {
+        "text": "When heavy fog restricts visibility to less than 150 meters"
+      }
+    },
+    "correctAnswerId": "D"
+  },
+  {
+    "id": 5,
+    "text": "If your car breaks down along a highway, you should:",
+    "answers": {
+      "B": {
+        "text": "Leave you rear."
+      },
+      "A": {
+        "text": "Turn on your emergency flashers and leave your car."
+      },
+      "C": {
+        "text": "Turn on your emergency flashers and place this sign in front of and behind your vehicle."
+      },
+      "D": {
+        "text": "Open the hood and trunk of your car."
+      }
+    },
+    "correctAnswerId": "C"
+  },
+  {
+    "id": 6,
+    "text": "When descending a steep grade or hill, you should:",
+    "answers": {
+      "A": {
+        "text": "Shift to neutral."
+      },
+      "B": {
+        "text": "Use a low gear."
+      },
+      "C": {
+        "text": "Keep your foot on the brake."
+      },
+      "D": {
+        "text": "Turn off your engine."
+      }
+    },
+    "correctAnswerId": "B"
+  },
+  {
+    "id": 7,
+    "text": "You must not park:",
+    "answers": {
+      "A": {
+        "text": "On the right-hand side of a two-way street."
+      },
+      "B": {
+        "text": "In front of a school."
+      },
+      "C": {
+        "text": "On a grade."
+      },
+      "D": {
+        "text": "In front of a police station."
+      }
+    },
+    "correctAnswerId": "A"
+  },
+  {
+    "id": 8,
+    "text": "When you intend to stop or park your vehicle, you should:",
+    "answers": {
+      "A": {
+        "text": "Park in a pedestrian crossing."
+      },
+      "B": {
+        "text": "Stop no further than 50 centimeters form the curb or the shoulder of the road."
+      },
+      "C": {
+        "text": "Park in the bus lane."
+      },
+      "D": {
+        "text": "Turn on your turn signal or your parking lights not less than 30 meters before stopping."
+      }
+    },
+    "correctAnswerId": "D"
+  },
+  {
+    "id": 9,
+    "text": "If you experience a breakdown, you should:",
+    "answers": {
+      "A": {
+        "text": "Pull your vehicle on to the shoulder and turn on your emergency flashers."
+      },
+      "B": {
+        "text": "Leave your car at the spot where it breaks down and arrange for repairs later."
+      },
+      "C": {
+        "text": "Leave your car at the spot where it breaks down and arrange to have it towed immediately."
+      },
+      "D": {
+        "text": "Leave your car at the spot where it breaks down and call a mechanic immediately."
+      }
+    },
+    "correctAnswerId": "A"
+  },
+  {
+    "id": 10,
+    "text": "Which of the following statements is true?",
+    "answers": {
+      "A": {
+        "text": "You may transport loads that extend no more than 2.5 meters from the rear of your vehicle."
+      },
+      "B": {
+        "text": "You may transport loads that extend one meter out from each side of your vehicle."
+      },
+      "C": {
+        "text": "You may transport loads no more than 3 meters high."
+      },
+      "D": {
+        "text": "You may transport loads that extend no more than 2.5 meters from the front of your vehicle."
+      }
+    },
+    "correctAnswerId": "A"
+  }
+
+]
