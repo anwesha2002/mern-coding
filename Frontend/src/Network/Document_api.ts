@@ -29,22 +29,29 @@ export interface DocumentInput {
     disability : boolean
 }
 
-export async function createDoc(doc : DocumentInput) :Promise<DocumentModel>{
+export async function createDoc(doc : DocumentInput) {
     const formData = new FormData();
     formData.append("photograph", doc.photograph[0])
-    // formData.append("mobile", doc.mobile)
-    formData.append("doc_image", doc.doc_image)
-    // formData.append("age", JSON.stringify(doc.age))
-    // formData.append("gender", doc.gender)
-    // formData.append("disability", JSON.stringify(doc.disability))
+    formData.append("mobile", doc.mobile)
+    formData.append("doc_image", doc.doc_image[0])
+    formData.append("age", JSON.stringify(doc.age))
+    formData.append("gender", doc.gender)
+    formData.append("disability", JSON.stringify(doc.disability))
 
     const config = {
-        headers : { 'Content-Type' : 'multipart/form-data'}
+        headers : {
+            'Content-Type': 'multipart/form-data'
+        }
     }
-    const data = {...formData, age : doc.age, disability : doc.disability, gender : doc.gender, mobile : doc.mobile}
+    //const data = {...formData, age : doc.age, disability : doc.disability, gender : doc.gender, mobile : doc.mobile}
 
-    const response = await axios.post('http://localhost:5000/api/doc', data, config)
-    return response.data
+    await axios.post('http://localhost:5000/api/doc',formData, config)
+        .then((res)=>{
+            return res.data
+        })
+        .catch((err)=>{
+            console.log(err)
+        })
 
     // const response = await fetch("http://localhost:5000/api/doc",
     //     {

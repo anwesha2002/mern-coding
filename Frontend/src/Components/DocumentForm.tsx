@@ -17,9 +17,7 @@ import {DocumentModel} from "../Model/DocumentModel.ts";
 export function DocumentForm(){
     const  { register, handleSubmit, formState : {errors, isSubmitting} } = useForm<DocumentInput>()
 
-    function onDocSubmit(input : DocumentModel){
-        console.log(input)
-    }
+
 
     async function onSubmit(input: DocumentInput) {
         try{

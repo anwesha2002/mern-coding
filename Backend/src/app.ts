@@ -1,24 +1,33 @@
 import "dotenv/config"
+//import fileUpload from "express-fileupload"
 import express, {Request, Response,NextFunction} from 'express'
 import docRouter from "./Routes/Document"
 import morgan from "morgan"
 import createHttpError, {isHttpError} from "http-errors";
 import cors from "cors"
 import bodyParser from "body-parser";
+import path from "path";
+import multer from "multer";
 
 const app = express();
+app.use(express.urlencoded({extended : false}))
 
 app.use(morgan("dev"))
 
 app.use(cors());
 
-app.use(
-    express.urlencoded({
-        extended: false,
-    })
-);
+//app.use(fileUpload())
 
-app.use(express.json())
+// app.use(
+//     express.urlencoded({
+//         extended: false,
+//     })
+// );
+
+
+//app.use(express.json())
+//app.use('/static',express.static(path.join(__dirname,'images')))
+
 
 app.use("/api/doc", docRouter)
 
